@@ -1,0 +1,230 @@
+body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*********************************************************************************/
+
+#landing{
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    background-size: cover;
+    padding-bottom: 5%;
+}
+
+#logo-div{
+    margin-bottom: 70px;
+    padding: 35px;
+    text-align: start;
+}
+#try{
+    -webkit-border-radius: 55;
+    -moz-border-radius: 55;
+    border-radius: 55px;
+    color: #1f1f1f;
+    font-size: 20px;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+    background: #c5c5c5;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    position: absolute;
+    right: 10%;
+  }
+  
+#try:hover{
+    background: #f577c7;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+#text1{
+    width: 38%;
+    float: left;
+    text-align: left;
+    padding: 60px;
+    position: relative;
+    left: 40px;
+    top: 0px;
+}
+
+h1{
+    margin: 10px 0;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: hsl(192, 100%, 9%);
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400,700;
+}
+.get{
+    -webkit-border-radius: 55;
+    -moz-border-radius: 55;
+    border-radius: 55px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+    background: #f577c7;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    position: absolute;
+    left: 10%;
+  }
+  
+.get:hover{
+    background: #c5c5c5;
+    text-decoration: none;
+    color: #1f1f1f;
+  }
+
+#mockup{
+    width: 740px;
+}
+
+/***************************************************************************************/
+#middle{
+    padding: 40px 10px 150px;
+}
+
+h3{
+    color:  hsl(192, 100%, 9%);
+    font-size: 24px;
+    margin: 30px 0px -1px;
+}
+
+#growth, #flower, #your{
+    width: 80%;
+    margin: 50px auto;
+    padding: 4%;
+    border: solid;
+    border-radius: 50px;
+    border-color: #b8b8b81f
+}
+
+#innerG, #innerY{
+    width: 40%;
+    float: left;
+    text-align: left;
+    position: relative;
+    left: 50px;
+    top: 60px;
+}
+
+.para{
+    color: hsl(208, 11%, 55%);
+    font-size: 17px;
+}
+
+#Gimg , #Fimg, #Yimg{
+    width: 350px;
+}
+
+#innerF{
+    width: 40%;
+    float: right;
+    text-align: left;
+    position: relative;
+    left: 50px;
+    top: 60px;
+}
+
+/**********************************************************************/
+
+
+#last{
+    background-color: hsl(192, 100%, 9%);
+    padding: 2%;
+    position: relative;
+}
+
+#logo1{
+    width: 50px;
+    position: relative;
+    left: 10px;
+    top: 20px;
+    
+}
+
+#get2{
+    position: static;
+}
+
+#build{
+    width: 400px;
+    height: 120px;
+    background-color: #fff;
+    padding: 3%;
+    margin: auto;
+    border: solid;
+    border-color:  #b8b8b81f;
+    border-radius: 25px;
+    position: relative;
+    bottom: 150px;
+}
+
+#contact{
+    width: 400px;
+    padding: 2%;
+}  
+#about{
+    width: 400px;
+    padding: 2%;
+    position: absolute;
+    bottom: 75px; 
+    left: 500px;
+}
+#career{
+    width: 400px;
+    padding: 2%;
+    position: absolute;
+    bottom: 75px;
+    right: 150px;
+}
+
+.info{
+    width: 300px;
+    font-size: 14px;
+    color: #c5c5c5;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.info:hover{
+    width: 300px;
+    font-size: 14px;
+    margin-left: 2%;
+    color: #c5c5c5;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.img{
+    width: 20px;    
+    float: left;
+}
+
+#location, #phone, #email{
+    margin: 30px 0;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+
+@media(max-width:900px){
+    body{
+        width: 900px;
+    }
+    #try{
+        position: relative;
+        left: 50%;
+    }
+
+}
